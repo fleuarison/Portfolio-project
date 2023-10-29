@@ -10,6 +10,7 @@ h1, h2, h3, h4, h5, h6{
     font-family: var(--heading-font-family);
     font-weight: bold;
     color: black;
+    text-align: center;
 }
 
 h1 {
@@ -26,7 +27,21 @@ p {
     line-height: 30px;
     text-align: center;
 }
-
+.container-fluid{
+  background: var(--branding-color);
+}
+.navbar-brand{
+  color: var(--secondary-color);
+}
+.nav-link{
+  color: var(--secondary-color);
+}
+.navbar-toggler{
+  background: var(--secondary-color);
+}
+.container{
+  margin-bottom: 30px;
+}
 .hero {
     background: var(--secondary-color);
     text-align: center;
@@ -55,6 +70,22 @@ color: #272142;
     font-size: 18px;
     padding : 15 px 30 px;
 }
+.homepage-link {
+  color: var(--branding-color);
+  text-align: center;
+  display: block;
+}
+.contact-link {
+  background: var(--branding-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+}
+
+.about-link {
+  color: var(--branding-color);
+  border: 1px solid var(--branding-color);
+}
+
 .navigation-links {
     display: flex;
     margin-top: 40px;
@@ -83,6 +114,34 @@ color: #272142;
   background: var(--branding-color);
   box-shadow: var(--box-shadow);
   color: white;
+}
+.about-paragraphs {
+  display: flex;
+  margin: 30px 0;
+}
+
+.about-paragraphs p {
+  background: var(--secondary-color);
+  margin: 10px;
+  padding: 20px;
+  border-radius: 4px;
+
+}
+
+.email-link {
+  display: flex;
+  justify-content: center;
+  color: var(--branding-color);
+  font-size: 28px;
+  text-decoration: none;
+}
+
+.email-link:hover {
+  text-decoration: underline;
+}
+.icon {
+  text-align: center;
+  margin-bottom: 20px;
 }
 @media (max-width: 390){
     h1{
