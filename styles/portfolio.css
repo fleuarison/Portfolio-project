@@ -45,7 +45,7 @@ p {
 .hero {
     background: var(--secondary-color);
     text-align: center;
-    padding: 160px 0;
+    padding: 160px 20px;
 }
 
 .hero p {
@@ -62,14 +62,6 @@ color: #272142;
     font-size: 24px;
 }
 
-.btn-branding{
-    background: var(--branding-color);
-    border-radius: 4px;
-    color : white;
-    line-height: 27px;
-    font-size: 18px;
-    padding : 15 px 30 px;
-}
 .homepage-link {
   color: var(--branding-color);
   text-align: center;
@@ -139,14 +131,55 @@ color: #272142;
 .email-link:hover {
   text-decoration: underline;
 }
+
 .icon {
   text-align: center;
   margin-bottom: 20px;
 }
-@media (max-width: 390){
+
+.about-section h1 {
+font-size: 64px;
+line-height: 80px;
+}
+
+.about-section h2 {
+  font-size: 18px;
+  line-height: 80px;
+  font-family: var(--default-font-family);
+  }
+
+ .btn-branding {
+    background: #2C3C55;
+    border-radius: 4px;
+    color : white;
+    line-height: 27px;
+    font-size: 18px;
+    padding : 20px 50px;
+    display: block;
+    margin: 0 25% auto;
+    box-shadow: var(--box-shadow);
+}
+
+.btn-branding:hover {
+  color: #2C3C55;
+  border: #2C3C55;
+}
+
+ .about-section{
+padding: 160px 20px;
+text-align: center;
+padding: 0;
+ }
+
+ .about-section-content{
+  margin: 20px;
+   }
+
+@media (max-width: 900){
     h1{
       text-align: center;
       font-size: 40px;
+      line-height: 56px;
     }
     h2 {
       text-align: center;
