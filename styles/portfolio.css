@@ -92,7 +92,7 @@ color: #272142;
     text-transform: capitalize;
   }
   
-  .yoga-link {
+  .first-project-link {
     background: var(--branding-color);
     box-shadow: var(--box-shadow);
     color: white;
@@ -102,7 +102,12 @@ color: #272142;
     box-shadow: var(--box-shadow);
     color: white;
 }
-.yogurt-link {
+.dictionnary-link {
+  background: var(--branding-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+}
+.translation-link {
   background: var(--branding-color);
   box-shadow: var(--box-shadow);
   color: white;
@@ -137,17 +142,6 @@ color: #272142;
   margin-bottom: 20px;
 }
 
-.about-section h1 {
-font-size: 64px;
-line-height: 80px;
-}
-
-.about-section h2 {
-  font-size: 18px;
-  line-height: 80px;
-  font-family: var(--default-font-family);
-  }
-
  .btn-branding {
     background: #2C3C55;
     border-radius: 4px;
@@ -165,15 +159,36 @@ line-height: 80px;
   border: #2C3C55;
 }
 
- .about-section{
+ .content-container{
 padding: 160px 20px;
 text-align: center;
 padding: 0;
  }
 
- .about-section-content{
+ .content{
   margin: 20px;
    }
+  
+ .content h1 {
+    font-size: 64px;
+    line-height: 80px;
+    }
+    
+  .content h2 {
+      font-size: 18px;
+      line-height: 80px;
+      font-family: var(--default-font-family);
+      }
+    
+  .content h3 {
+    font-size: 24px;
+    font-family: var(--default-font-family);
+    line-height: 1.5;
+  }
+
+  .content p {
+    font-size: 14px;
+  }
 
 @media (max-width: 900){
     h1{
