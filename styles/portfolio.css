@@ -207,6 +207,42 @@ max-width: 30px;
     font-weight: bold;
     text-decoration: underline;
   }
+
+  footer{
+    margin: 60px 30px;
+  }
+  
+  footer .mail {
+text-align: center;
+text-decoration: none;
+font-size: 24px;
+color: var(--branding-color);
+  }
+
+  footer .icon-social-media a {
+margin: 0 20px;
+padding: 10px;
+font-size: 18px;
+color: var(--branding-color);
+  }
+
+  footer .contact-box {
+padding: 30px;
+background: var(--secondary-color);
+box-shadow: var(--box-shadow);
+border-radius: 4px;
+  }
+
+  .social-media {
+    transition: all 100ms ease-in-out;
+  }
+
+  .social-media:hover{
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(3);
+  }
+
 @media (max-width: 900){
     h1{
       text-align: center;
