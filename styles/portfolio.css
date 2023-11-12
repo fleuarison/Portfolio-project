@@ -30,6 +30,9 @@ p {
 .container-fluid{
   background: var(--branding-color);
 }
+.about-item{
+  background:#2C3C55;
+}
 .navbar-brand{
   color: var(--secondary-color);
 }
@@ -39,6 +42,7 @@ p {
 .navbar-toggler{
   background: var(--secondary-color);
 }
+
 .container{
   margin-bottom: 30px;
 }
@@ -191,9 +195,18 @@ padding: 0;
   }
 
   .contact-body {
-    background-image: url("../../images/Fleuria.png");
+    background: linear-gradient(108.7deg, rgb(224, 235, 213) 8.1%, rgb(3, 59, 57) 91.2%);
   }
 
+  .logo {
+max-width: 30px;
+  }
+
+  .active {
+    color: rgb(17, 16, 16) !important;
+    font-weight: bold;
+    text-decoration: underline;
+  }
 @media (max-width: 900){
     h1{
       text-align: center;
