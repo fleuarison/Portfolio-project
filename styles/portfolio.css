@@ -1,6 +1,7 @@
 :root{
     --branding-color: #106C54;
     --secondary-color: #f5f2fe;
+    --tertiary-color: #2C3C55;
     --heading-font-family : "Playfair Display", serif;
     --default-font-family : "Poppins", sans-serif;
     --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
@@ -31,7 +32,7 @@ p {
   background: var(--branding-color);
 }
 .about-item{
-  background:#2C3C55;
+  background:var(--tertiary-color);
 }
 .navbar-brand{
   color: var(--secondary-color);
@@ -116,6 +117,11 @@ color: #272142;
   box-shadow: var(--box-shadow);
   color: white;
 }
+.learn-more {
+  background: var(--branding-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+}
 .about-paragraphs {
   display: flex;
   margin: 30px 0;
@@ -147,7 +153,7 @@ color: #272142;
 }
 
  .btn-branding {
-    background: #2C3C55;
+    background: var(--tertiary-color);
     border-radius: 4px;
     color : white;
     line-height: 27px;
@@ -159,8 +165,8 @@ color: #272142;
 }
 
 .btn-branding:hover {
-  color: #2C3C55;
-  border: #2C3C55;
+  color: var(--tertiary-color);
+  border: var(--tertiary-color);
 }
 
  .content-container{
@@ -168,6 +174,12 @@ padding: 160px 20px;
 text-align: center;
 padding: 0;
  }
+
+ .contact-page {
+  margin: 120px 40px;
+  text-align: center;
+  padding: 75px;
+   }
 
  .content{
   margin: 20px;
@@ -243,6 +255,9 @@ border-radius: 4px;
     transform: scale(3);
   }
 
+  .open-source {
+    font-family: monospace;
+  }
 @media (max-width: 900){
     h1{
       text-align: center;
